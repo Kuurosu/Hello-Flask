@@ -1,4 +1,86 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>About Page</h2>
+
+{% for number in list_of_numbers %}
+<p>{{ number }}</p>
+{% endfor %}
+
+<h2>{{ page_title }}</h2>
+<p>
+    DARLING in the FRANXX (ダーリン・イン・ザ・フランキス, Darin in za Furankisu) is a 2018 science fiction/mecha anime co-produced by
+    Studio TRIGGER and A-1 Pictures. The series was announced at Trigger's Anime Expo 2017 panel in July 2017. In a
+    post-apocalyptic future, young pilots fight against giant monsters known as klaxosaurs using giant feminine robots
+    known
+    as FRANXX. Their identities are defined solely by their role as pilots, with no personal freedom or knowledge of the
+    outside world beyond the "birdcage" of Mistilteinn or the mobile fortress of Plantation. When former prodigy Hiro
+    becomes unable to pilot a FRANXX, he becomes filled with doubt and conflict about his own worth. That doubt and
+    conflict
+    changes to resolve when he meets a strange part-klaxosaur girl with horns on her head called Zero Two. Despite the
+    risks
+    of teaming up with a known "partner killer," Hiro becomes Zero Two's DARLING to fly a FRANXX again.
+</p>
+<div class="row featurette">
+    <div class="col-md-7">
+        <h3>Zero Two</h3>
+        <p>
+            Zero Two (ゼロツー, Zero Tsū) is the main heroine and deuteragonist of DARLING in the FRANXX. She is a
+            human-klaxo sapien
+            hybrid and a member of the APE Special Forces, primarily fighting on the front lines. As an elite Parasite
+            with the
+            codename "002", also known as the "Partner Killer", Zero Two had always accepted solitude due to her horns
+            and Klaxosaur
+            blood. Despite having no regard for human life or her own and being accustomed to fighting solo, she took
+            interest in
+            Hiro and offered an opportunity to pilot with her, making him her new partner and "darling". After Hiro was
+            able to ride
+            with her more than three times, the pair became the 13th Plantation's newest members, piloting the powerful
+            FRANXX
+            Strelizia.
+
+            Over time, Zero Two developed romantic feelings towards Hiro. However, her determination to become fully
+            human, along
+            with Hiro's apparent fear of her increasing feral characteristics resulted in the couple briefly drifting
+            apart. When
+            their relationship as partners began to take a turn and slowly crumble, they realized their forgotten
+            memories of their
+            meeting during childhood. The two chose to sacrifice their lives in order to safeguard and ensure the
+            survival of
+            humankind.
+        </p>
+    </div>
+    <div class="col-md-5">
+        <img src="https://cdn.donmai.us/original/34/05/3405175d424b42519a365fc2606a26f0.jpg" alt="Zero Two">
+    </div>
+</div>
+
+<div class="row featurette">
+    <div class="col-md-5">
+        <img src="https://wallpapercrafter.com/th800/434612-Anime-Darling-in-the-FranXX-Phone-Wallpaper.jpg" alt="Hiro">
+    </div>
+    <div class="col-md-7">
+        <h3>Hiro</h3>
+        <p>
+            Hiro (ヒロ, Hiro) is the main protagonist of DARLING in the FRANXX. He was a Parasite with the codename "016"
+            and was once
+            known as a prodigy among the Children. However, he failed to synchronize with his partner Naomi and was
+            considered
+            nothing but a failure as a pilot. As a result, he did not know where he belonged and struggled to find his
+            place in the
+            world. However, upon being partnered and piloting with Zero Two, he became an official Parasite and found a
+            new reason
+            to live. Hiro and Zero Two were the newest members of the 13th Plantation, piloting a FRANXX called
+            Strelizia.
+
+            Over the time spent together he began to reproduce feelings of romance with Zero Two, and when their
+            relationship as
+            partners began to take a turn and slowly crumble, he reawakened his previous feelings during childhood with
+            her, along
+            with his current feelings of love. The two eventually began a relationship together before their demise.
+            Although
+            motivated to fulfil his duty as a parasite, he later makes it his purpose in life to free all the parasites
+            from APE's
+            control and he selflessly sacrifices his own life to protect his friends and the planet.
+        </p>
+    </div>
+</div>
 {% endblock %}
